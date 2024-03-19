@@ -34,6 +34,6 @@ Un gestionale che assiste un'impresa di organizzazione di eventi nella creazione
    - Riepilogo dei risultati raggiunti
    - Possibili sviluppi futuri o miglioramenti
 ## Appendici
-    - Glossario dei termini tecnici
-    - Riferimenti o link utili
-    - Altri dettagli o informazioni aggiuntive
+ - Glossario dei termini tecnici
+ - Riferimenti o link utili
+ - Altri dettagli o informazioni aggiuntive
