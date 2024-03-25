@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ruoliType">
+    <xs:sequence>
+      <xs:element name="ruolo" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="eventoType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int"/>
+      <xs:element name="nome" type="xs:string"/>
+      <xs:element name="tecnici" type="xs:int"/>
+      <xs:element name="data" type="xs:dateTime"/>
+      <xs:element name="ruoli" type="ruoliType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="evento" type="eventoType"/>
+
+</xs:schema>
